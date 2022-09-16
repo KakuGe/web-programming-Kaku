@@ -1,9 +1,5 @@
-.coolclass1{
- background-color:blue;
- padding:20px;
- margin:100px;
- color:white;
- border:10px solid black;
- font-family: Noto;
-
+.curosr {
+  width:200px;
+  height:200px;
+  cursor:url('https://www.kindpng.com/picc/m/245-2456655_a-splatoon-squid-emote-that-i-made-for.png" alt="A Splatoon Squid Emote That I Made For A Couple Of - Splatoon Squid Logo Png');
 }
