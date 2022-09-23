@@ -13,6 +13,7 @@
 	background-color: pink;
 	color: yellow;
 	padding: 0;
+	justify-content: center;
  /* Flexbox - Centers everything vertically */
 }
 .flex-child{
@@ -31,7 +32,7 @@
 
 }
 .content{
-position:fixed;
+position:relative;
 width:100vw;
 top:20px
 }
