@@ -13,11 +13,11 @@
 	position: sticky;
 	column-gap: 50px;
 	top: 0px;
-	left:20px;
+	left:220px;
 	background-color: pink;
 	color: yellow;
 	padding: 0;
-	align-items: center; /* Flexbox - Centers everything vertically */
+ /* Flexbox - Centers everything vertically */
 }
 .flex-child{
 	flex-grow:2; /* Makes items fill up space */
@@ -35,26 +35,25 @@
 
 }
 .content {
-  float: right;
   width: 90%;
 }
 #section1 {
 	background-color:#D5F0F6;
 	color: black;
 	width:100vw;
-	left:20px;
+	left:180px;
 }
 #section2 {
 	background-color:#CCE3F9;
 	color: black;
 	width:100vw;
-	left:20px;
+	left:180px;
 }
 #section3 {
 	background-color:#C6D4F4;
 	color: black;
 	width:100vw;
-	left:20px;
+	left:180px;
 }
 #section4 {
 	background-color:#BFC6F2;
