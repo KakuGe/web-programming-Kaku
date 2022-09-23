@@ -5,6 +5,7 @@
 .navbar{
 	position: sticky;
 	top: 0px;
+	left:20px;
 	background-color: pink;
 	color: yellow;
 	width: 100vw;
@@ -13,7 +14,7 @@
 	align-items: center; /* Flexbox - Centers everything vertically */
 }
 .flex-child{
-	flex-grow: 1; /* Makes items fill up space */
+	flex-grow:2; /* Makes items fill up space */
 	padding: 10px;
 	text-decoration: none;
 	color: yellow;
