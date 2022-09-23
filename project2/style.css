@@ -2,6 +2,14 @@
 * {
 	box-sizing: border-box;
 }
+}
+.parent {
+	display: grid;
+	grid-template-columns: .5fr 1fr; /* Right column will be twice the size of the left */
+	padding: 80px;
+	grid-gap: 80px;
+	align-items: stretch; /* Makes grid items the same height */
+}
 .navbar{
 	position: sticky;
 	top: 0px;
