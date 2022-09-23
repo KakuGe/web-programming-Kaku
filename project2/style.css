@@ -1,7 +1,8 @@
+
 * {
 	box-sizing: border-box;
 }
-.navbar {
+.navbar{
 	position: sticky;
 	top: 0px;
 	background-color: white;
@@ -11,7 +12,7 @@
 	display: flex;
 	align-items: center; /* Flexbox - Centers everything vertically */
 }
-.flex-child {
+.flex-child{
 	flex-grow: 1; /* Makes items fill up space */
 	padding: 10px;
 	text-decoration: none;
@@ -22,15 +23,27 @@
 .flex-child:hover {
 	background-color: white;
 	color: #f61d5d;
+
+}
+.content{
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.content div { /* Applies CSS styles to all <div> elements inside of <div class="parent"> */
+	height: 100vh; /* Forces height to not change */
+	overflow: scroll; /* Content inside can only be viewed via scrolling */
+
 }
 #section1 {
-	background-color: green;
+	background-color:#64FFDA;
 	color: white;
 	padding: 20px;
 }
 #section2 {
-	background-color: red;
-	color: white;
+	background-color:white;
+	color: black;
 	padding: 20px;
 }
 #section3 {
