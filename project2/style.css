@@ -1,13 +1,6 @@
 
 * {
 	box-sizing: border-box;
-}
-.parent {
-	width: 100vw;
-	height: 100vh;
-	display: inline-grid;
-
-}
 
 .navbar{
 	display:flex;
@@ -35,7 +28,7 @@
 	background-color: white;
 	color: #f61d5d;
   margin: 20px;;
-
+}
 #section1 {
 	background-color:#D5F0F6;
 	color: black;
