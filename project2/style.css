@@ -2,9 +2,12 @@
 * {
 	box-sizing: border-box;
 }
-.parent{
-	float:left;
-	}
+.parent {
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
 
 .navbar{
 	display:flex;
@@ -33,10 +36,6 @@
 	color: #f61d5d;
   margin: 20px;;
 
-}
-.content {
-  width: 89.3%;
-}
 #section1 {
 	background-color:#D5F0F6;
 	color: black;
