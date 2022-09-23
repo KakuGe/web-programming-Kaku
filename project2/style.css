@@ -2,16 +2,11 @@
 * {
 	box-sizing: border-box;
 }
-}
-.parent {
-	display: grid;
-	grid-template-columns: .5fr 1fr; /* Right column will be twice the size of the left */
-	padding: 80px;
-	grid-gap: 80px;
-	align-items: stretch; /* Makes grid items the same height */
-}
+
 .navbar{
+	display:flex;
 	position: sticky;
+	column-gap: 50px;
 	top: 0px;
 	left:20px;
 	background-color: pink;
@@ -19,7 +14,6 @@
 	width: 100vw;
 	left:20px;
 	padding: 0;
-	display: flex;
 	align-items: center; /* Flexbox - Centers everything vertically */
 }
 .flex-child{
@@ -27,12 +21,14 @@
 	padding: 10px;
 	text-decoration: none;
 	color: yellow;
-	transition: .2s;
+	flex-direction:row;
+	justify-content: center;
 	text-align: center;
 }
-.flex-child:hover {
+.flex-child > div {
 	background-color: white;
 	color: #f61d5d;
+  margin: 20px;;
 
 }
 #section1 {
