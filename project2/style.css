@@ -29,6 +29,12 @@
 	color: #f61d5d;
   margin: 20px;;
 }
+.content{
+position:sticky;
+width:100vw
+
+}
+
 #section1 {
 	background-color:#D5F0F6;
 	color: black;
