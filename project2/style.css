@@ -17,6 +17,7 @@
 	background-color: pink;
 	color: yellow;
 	width: 100vw;
+	left:20px;
 	padding: 0;
 	display: flex;
 	align-items: center; /* Flexbox - Centers everything vertically */
@@ -37,20 +38,24 @@
 #section1 {
 	background-color:#D5F0F6;
 	color: black;
-	padding: 20px;
+	width:100vw;
+	left:20px;
 }
 #section2 {
 	background-color:#CCE3F9;
 	color: black;
-	padding: 20px;
+	width:100vw;
+	left:20px;
 }
 #section3 {
 	background-color:#C6D4F4;
 	color: black;
-	padding: 20px;
+	width:100vw;
+	left:20px;
 }
 #section4 {
 	background-color:#BFC6F2;
 	color: black;
-	padding: 20px;
+	width:100vw;
+	left:20px;
 }
