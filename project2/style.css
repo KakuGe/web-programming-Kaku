@@ -2,17 +2,20 @@
 * {
 	box-sizing: border-box;
 }
+.parent{
+	float:left;
+	}
 
 .navbar{
 	display:flex;
+	float: right;
+  width: 90%;
 	position: sticky;
 	column-gap: 50px;
 	top: 0px;
 	left:20px;
 	background-color: pink;
 	color: yellow;
-	width: 100vw;
-	left:20px;
 	padding: 0;
 	align-items: center; /* Flexbox - Centers everything vertically */
 }
@@ -30,6 +33,10 @@
 	color: #f61d5d;
   margin: 20px;;
 
+}
+.content {
+  float: right;
+  width: 90%;
 }
 #section1 {
 	background-color:#D5F0F6;
