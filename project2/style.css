@@ -1,7 +1,7 @@
 
 * {
 	box-sizing: border-box;
-
+}
 .navbar{
 	display:flex;
 	float: right;
