@@ -25,17 +25,6 @@
 	color: #f61d5d;
 
 }
-.content{
-	width: 100vw;
-	height: 100vh;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-}
-.content div { /* Applies CSS styles to all <div> elements inside of <div class="parent"> */
-	height: 100vh; /* Forces height to not change */
-	overflow: scroll; /* Content inside can only be viewed via scrolling */
-
-}
 #section1 {
 	background-color:#D5F0F6;
 	color: black;
