@@ -5,7 +5,7 @@
 .navbar{
 	position: sticky;
 	top: 0px;
-	background-color: white;
+	background-color: pink;
 	color: yellow;
 	width: 100vw;
 	padding: 0;
@@ -37,22 +37,22 @@
 
 }
 #section1 {
-	background-color:#64FFDA;
-	color: white;
+	background-color:#D5F0F6;
+	color: black;
 	padding: 20px;
 }
 #section2 {
-	background-color:white;
+	background-color:#CCE3F9;
 	color: black;
 	padding: 20px;
 }
 #section3 {
-	background-color: blue;
-	color: white;
+	background-color:#C6D4F4;
+	color: black;
 	padding: 20px;
 }
 #section4 {
-	background-color: purple;
-	color: white;
+	background-color:#BFC6F2;
+	color: black;
 	padding: 20px;
 }
