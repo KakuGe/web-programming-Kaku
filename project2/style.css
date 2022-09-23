@@ -31,7 +31,7 @@
 
 }
 .content{
-position:sticky;
+position:fixed;
 width:100vw;
 top:20px
 }
