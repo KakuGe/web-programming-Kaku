@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+}
+.navbar {
+	position: sticky;
+	top: 0px;
+	background-color: white;
+	color: yellow;
+	width: 100vw;
+	padding: 0;
+	display: flex;
+	align-items: center; /* Flexbox - Centers everything vertically */
+}
+.flex-child {
+	flex-grow: 1; /* Makes items fill up space */
+	padding: 10px;
+	text-decoration: none;
+	color: yellow;
+	transition: .2s;
+	text-align: center;
+}
+.flex-child:hover {
+	background-color: white;
+	color: #f61d5d;
+}
+#section1 {
+	background-color: green;
+	color: white;
+	padding: 20px;
+}
+#section2 {
+	background-color: red;
+	color: white;
+	padding: 20px;
+}
+#section3 {
+	background-color: blue;
+	color: white;
+	padding: 20px;
+}
+#section4 {
+	background-color: purple;
+	color: white;
+	padding: 20px;
+}
