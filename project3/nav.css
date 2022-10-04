@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1540px;
+    height: 80px;
+    top: 0px;
+    background-color: white;
+    overflow: hidden;
+    font-size: 20px;
+    color: rgb(234, 247, 255);
+    opacity: 0.8;
+    z-index: 1000;
+}
+.homenav{
+    animation: load2 2s linear;
+}
+
+nav:hover{
+    opacity: 0.95;
+}
+nav .navtitle{
+    padding-left: 50px;
+    width: 30%;
+}
+nav .navtitle strong{
+    font-size: 120px;
+    font-weight: bolder;
+}
+nav a{
+   display: block;
+   justify-content: center;
+   text-decoration: none;
+   z-index: 1;
+   height: inherit;
+   line-height: 70px;
+   width: 200px;
+   text-align: center;
+   font-weight: bolder;
+   color: rgb(84, 109, 158);
+   transition: 0.5s;
+}
+nav .navanim{
+    position: absolute;
+    height: inherit;
+    z-index: 0;
+    background:#00E5FF;
+    border-radius: 5px;
+    left: 0px;
+    transition:  all .5s ease 0s;
+    width: 200px;
+    opacity:0.4
+}
+nav .home,a:nth-child(2):hover~.navanim{
+    width: 220px;
+    left: 240px;
+}
+
+nav .about,a:nth-child(3):hover~.navanim{
+    width: 220px;
+    left: 490px;
+}
+
+nav .blog,a:nth-child(4):hover~.navanim{
+    width: 220px;
+    left:730px;
+}
+
+nav .album,a:nth-child(5):hover~.navanim{
+    width: 220px;
+    left: 970px;
+}
+
+nav .none{
+    width: 20%;
+}

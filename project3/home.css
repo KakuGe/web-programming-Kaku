@@ -1,0 +1,23 @@
+.titleimg{
+    background-image: url("KV.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 1540px;
+    background-attachment: fixed;
+    width: 100vw;
+    transition: 0.5s ease 0s;
+    animation: load 0.5s;
+    opacity:0.9;
+
+}
+.title{
+    width: 200px;
+    padding: 200px;
+    font-size: 100px;
+    font-weight: bolder;
+    color: white;
+    position:left;
+    left:100px;
+    top:200px;
+
+}
