@@ -7,15 +7,15 @@ window.onmousemove = function(event){
 }
 
 
-var Account=document.getElementById('Account');
-var mm=PW.getElementById('PW');
+var Account=document.getElementById('PW');
+var PW=document.getElementById('Account');
 function login(){
-    if(Account.value==""||PW.value==""){
-        alert("Account or passwords can not be empty");
+    if(Acount.value==""||PW.value==""){
+        alert("Don't leave it empty");
         return false;
     }
-    else if(Account.value!="111"||PW.value!="123456"){
-        alert("Password Incorrect");
+    else if(Acount.value!="123"||PW.value!="123456"){
+        alert("Wrong Account or Password");
         return false;
     }
 }

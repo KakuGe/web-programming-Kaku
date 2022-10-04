@@ -57,22 +57,26 @@ nav .navanim{
     opacity:0.4
 }
 nav .home,a:nth-child(2):hover~.navanim{
-    width: 220px;
-    left: 240px;
+    width: 180px;
+    left: 200px;
 }
 
 nav .about,a:nth-child(3):hover~.navanim{
-    width: 220px;
+    width: 180px;
     left: 490px;
 }
 
 nav .blog,a:nth-child(4):hover~.navanim{
-    width: 220px;
+    width: 180px;
     left:730px;
 }
 
 nav .album,a:nth-child(5):hover~.navanim{
-    width: 220px;
+    width: 180px;
+    left: 970px;
+}
+nav .album,a:nth-child(6):hover~.navanim{
+    width: 180px;
     left: 970px;
 }
 
