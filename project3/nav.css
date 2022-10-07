@@ -68,16 +68,16 @@ nav .about,a:nth-child(3):hover~.navanim{
 
 nav .blog,a:nth-child(4):hover~.navanim{
     width: 160px;
-    left:550px;
+    left:560px;
 }
 
 nav .album,a:nth-child(5):hover~.navanim{
     width: 160px;
-    left: 730px;
+    left: 740px;
 }
 nav .album,a:nth-child(6):hover~.navanim{
     width: 160px;
-    left: 885px;
+    left: 895px;
 }
 
 nav .none{
