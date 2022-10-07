@@ -45,7 +45,15 @@
 
   .sec{
     grid-template-columns:1fr;
+
   }
+  .title{
+    width:auto;
+  }
+  .titleimg{
+    width:auto;
+  }
+
 }
 
 
