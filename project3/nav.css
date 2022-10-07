@@ -63,21 +63,21 @@ nav .home,a:nth-child(2):hover~.navanim{
 
 nav .about,a:nth-child(3):hover~.navanim{
     width: 160px;
-    left:365px;
+    left:375px;
 }
 
 nav .blog,a:nth-child(4):hover~.navanim{
     width: 160px;
-    left:520px;
+    left:540px;
 }
 
 nav .album,a:nth-child(5):hover~.navanim{
     width: 160px;
-    left: 675px;
+    left: 705px;
 }
 nav .album,a:nth-child(6):hover~.navanim{
     width: 160px;
-    left: 845px;
+    left: 885px;
 }
 
 nav .none{
